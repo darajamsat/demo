@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<h1>{{ page.title }}</h1>
+
+<ul>
+    {% for blog in site.data.contentful.myblog.blog %}
+        <li>
+            <h2><a href="/blog/{{ blog.link }}">{{ blog.title }}</a></h2>
+            <p>{{ blog.intro }}</p>
+        </li>
+    {% endfor %}
+</ul>
