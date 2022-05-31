@@ -1,6 +1,16 @@
 ---
 blog:
 - sys:
+    id: 1sRxOzpejTAlua1w1q1LvR
+    created_at: !ruby/object:DateTime 2022-05-31 19:23:20.479000000 Z
+    updated_at: !ruby/object:DateTime 2022-05-31 19:23:20.479000000 Z
+    content_type_id: blog
+    revision: 1
+  title: This is cool
+  link: this-is-cool
+  intro: Yippee!
+  post: We now have a working blog site!!
+- sys:
     id: 3fPWY980fw0QMx5sifxpmE
     created_at: !ruby/object:DateTime 2022-05-31 18:42:35.740000000 Z
     updated_at: !ruby/object:DateTime 2022-05-31 18:42:35.740000000 Z
